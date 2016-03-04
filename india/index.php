@@ -36,7 +36,7 @@ HTML;
 }
 
 $params = $_SERVER;
-$params[\Magento\Store\Model\StoreManager::PARAM_RUN_CODE] = 'in';
+$params[\Magento\Store\Model\StoreManager::PARAM_RUN_CODE] = 'india';
 $params[\Magento\Store\Model\StoreManager::PARAM_RUN_TYPE] = 'website';
 $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $params);
 $app = $bootstrap->createApplication('\Magento\Framework\App\Http');
